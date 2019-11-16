@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.risultato-lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://cdn.vox-cdn.com/thumbor/w6DcyvMn8RnaGnDzEquiioU-ViQ=/0x0:5040x3034/1200x800/filters:focal(2117x1114:2923x1920)/cdn.vox-cdn.com/uploads/chorus_image/image/64654374/woodstock_99_getty_images.0.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ok {
+  background-color: purple;
+  color: white;
+  padding: 30px;
+}
+
+#stampa-risultato {
+  display: none;
+}
+
+#stampa-risultato.visible {
+  display: flex;
+}
